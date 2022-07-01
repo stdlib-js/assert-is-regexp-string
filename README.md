@@ -30,32 +30,30 @@ limitations under the License.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert-is-regexp-string
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-isRegExpString = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-regexp-string@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-regexp-string@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.isRegExpString;
-})();
-</script>
+var isRegExpString = require( '@stdlib/assert-is-regexp-string' );
 ```
 
 #### isRegExpString( value )
@@ -77,13 +75,8 @@ var bool = isRegExpString( '/^beep$/' );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-regexp-string@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var isRegExpString = require( '@stdlib/assert-is-regexp-string' );
 
 var bool;
 
@@ -101,18 +94,72 @@ bool = isRegExpString( '' );
 
 bool = isRegExpString( null );
 // returns false
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
 
 <!-- /.examples -->
 
+* * *
 
+<section class="cli">
+
+## CLI
+
+<section class="installation">
+
+## Installation
+
+To use the module as a general utility, install the module globally
+
+```bash
+npm install -g @stdlib/assert-is-regexp-string
+```
+
+</section>
+
+<!-- CLI usage documentation. -->
+
+<section class="usage">
+
+### Usage
+
+```text
+Usage: is-regexp-string [options] [<string>]
+
+Options:
+
+  -h,    --help                Print this message.
+  -V,    --version             Print the package version.
+```
+
+</section>
+
+<!-- /.usage -->
+
+<section class="examples">
+
+### Examples
+
+```bash
+$ is-regexp-string '/beep/'
+true
+```
+
+To use as a [standard stream][standard-streams],
+
+```bash
+$ echo -n '/beep/' | is-regexp-string
+true
+```
+
+</section>
+
+<!-- /.examples -->
+
+</section>
+
+<!-- /.cli -->
 
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
@@ -193,6 +240,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/assert-is-regexp-string/tree/deno
 [umd-url]: https://github.com/stdlib-js/assert-is-regexp-string/tree/umd
 [esm-url]: https://github.com/stdlib-js/assert-is-regexp-string/tree/esm
+[branches-url]: https://github.com/stdlib-js/assert-is-regexp-string/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-regexp-string/main/LICENSE
 
@@ -200,7 +248,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/assert/is-regexp]: https://github.com/stdlib-js/assert-is-regexp/tree/umd
+[@stdlib/assert/is-regexp]: https://github.com/stdlib-js/assert-is-regexp
 
 <!-- </related-links> -->
 
