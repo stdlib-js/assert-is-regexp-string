@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isRegExpString from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-regexp-string@esm/index.mjs';
+import isRegExpString from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-regexp-string@v0.1.1-esm/index.mjs';
 ```
 
 #### isRegExpString( value )
@@ -76,7 +76,7 @@ var bool = isRegExpString( '/^beep$/' );
 <body>
 <script type="module">
 
-import isRegExpString from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-regexp-string@esm/index.mjs';
+import isRegExpString from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-regexp-string@v0.1.1-esm/index.mjs';
 
 var bool;
 
