@@ -173,16 +173,16 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/assert-is-regexp-string-cli.svg
 [npm-url]: https://npmjs.org/package/@stdlib/assert-is-regexp-string-cli
 
-[test-image]: https://github.com/stdlib-js/assert-is-regexp-string@v0.2.1/actions/workflows/test.yml/badge.svg?branch=v0.2.1
-[test-url]: https://github.com/stdlib-js/assert-is-regexp-string@v0.2.1/actions/workflows/test.yml?query=branch:v0.2.1
+[test-image]: https://github.com/stdlib-js/assert-is-regexp-string/actions/workflows/test.yml/badge.svg?branch=v0.2.1
+[test-url]: https://github.com/stdlib-js/assert-is-regexp-string/actions/workflows/test.yml?query=branch:v0.2.1
 
-[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/assert-is-regexp-string@v0.2.1/main.svg
-[coverage-url]: https://codecov.io/github/stdlib-js/assert-is-regexp-string@v0.2.1?branch=main
+[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/assert-is-regexp-string/main.svg
+[coverage-url]: https://codecov.io/github/stdlib-js/assert-is-regexp-string?branch=main
 
 <!--
 
-[dependencies-image]: https://img.shields.io/david/stdlib-js/assert-is-regexp-string@v0.2.1.svg
-[dependencies-url]: https://david-dm.org/stdlib-js/assert-is-regexp-string@v0.2.1/main
+[dependencies-image]: https://img.shields.io/david/stdlib-js/assert-is-regexp-string.svg
+[dependencies-url]: https://david-dm.org/stdlib-js/assert-is-regexp-string/main
 
 -->
 
@@ -193,22 +193,22 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
-[cli-section]: https://github.com/stdlib-js/assert-is-regexp-string@v0.2.1#cli
-[cli-url]: https://github.com/stdlib-js/assert-is-regexp-string@v0.2.1/tree/cli
-[@stdlib/assert-is-regexp-string]: https://github.com/stdlib-js/assert-is-regexp-string@v0.2.1/tree/main
+[cli-section]: https://github.com/stdlib-js/assert-is-regexp-string#cli
+[cli-url]: https://github.com/stdlib-js/assert-is-regexp-string/tree/cli
+[@stdlib/assert-is-regexp-string]: https://github.com/stdlib-js/assert-is-regexp-string/tree/main
 
 [umd]: https://github.com/umdjs/umd
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
-[deno-url]: https://github.com/stdlib-js/assert-is-regexp-string@v0.2.1/tree/deno
-[deno-readme]: https://github.com/stdlib-js/assert-is-regexp-string@v0.2.1/blob/deno/README.md
-[umd-url]: https://github.com/stdlib-js/assert-is-regexp-string@v0.2.1/tree/umd
-[umd-readme]: https://github.com/stdlib-js/assert-is-regexp-string@v0.2.1/blob/umd/README.md
-[esm-url]: https://github.com/stdlib-js/assert-is-regexp-string@v0.2.1/tree/esm
-[esm-readme]: https://github.com/stdlib-js/assert-is-regexp-string@v0.2.1/blob/esm/README.md
-[branches-url]: https://github.com/stdlib-js/assert-is-regexp-string@v0.2.1/blob/main/branches.md
+[deno-url]: https://github.com/stdlib-js/assert-is-regexp-string/tree/deno
+[deno-readme]: https://github.com/stdlib-js/assert-is-regexp-string/blob/deno/README.md
+[umd-url]: https://github.com/stdlib-js/assert-is-regexp-string/tree/umd
+[umd-readme]: https://github.com/stdlib-js/assert-is-regexp-string/blob/umd/README.md
+[esm-url]: https://github.com/stdlib-js/assert-is-regexp-string/tree/esm
+[esm-readme]: https://github.com/stdlib-js/assert-is-regexp-string/blob/esm/README.md
+[branches-url]: https://github.com/stdlib-js/assert-is-regexp-string/blob/main/branches.md
 
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-regexp-string@v0.2.1/main/LICENSE
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-regexp-string/main/LICENSE
 
 [standard-streams]: https://en.wikipedia.org/wiki/Standard_streams
 
