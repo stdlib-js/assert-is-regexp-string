@@ -29,7 +29,7 @@ var stdin = require( '@stdlib/process-read-stdin' );
 var stdinStream = require( '@stdlib/streams-node-stdin' );
 var RE_EOL = require( '@stdlib/regexp-eol' ).REGEXP;
 var reFromString = require( '@stdlib/utils-regexp-from-string' );
-var isRegExpString = require( './../lib' );
+var isRegExpString = require( '@stdlib/assert-is-regexp-string' );
 
 
 // MAIN //
